@@ -1,0 +1,6 @@
+[submodule "RxCpp"]
+	path = external/RxCpp
+	url = ../../Reactive-Extensions/RxCpp.git
+[submodule "Catch"]
+	path = external/Catch
+	url = ../../philsquared/Catch.git
