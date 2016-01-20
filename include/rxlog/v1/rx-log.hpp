@@ -4,6 +4,8 @@
  * Distributed under the Boost Software License, Version 1.0. (See accompanying
  * file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
  */
+#ifndef RXLOG_V1_RXLOG_
+#define RXLOG_V1_RXLOG_
 #include <ostream>
 #include <sstream>
 #include <string>
@@ -217,3 +219,4 @@ using wlogger = basic_logger<wchar_t>;
 #define LOG_FATAL(a) LOG_IMPL(a, ::rxlog::severity::fatal)
 } // v1
 } // rxlog
+#endif // RXLOG_V1_RXLOG_
